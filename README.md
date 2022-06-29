@@ -8,6 +8,8 @@ As an introduction, please watch [this tutorial video](https://youtu.be/jhQ8DF87
 
 You can watch how the two included sample models were made [here](https://www.youtube.com/watch?v=T4LxyxfUAVY).
 
+Please keep in mind that this fork is to be used **ONLY** in [VTuber Plus](https://store.steampowered.com/app/1957330/VTuber_Plus/).
+
 # Usage
 
 First create a VRM as usual, then import it. You can now change
@@ -104,12 +106,8 @@ the file.
 
 Supported additional assets are:
 - Dynamic Bones
-- SPCRJointDynamics
 - Magica Cloth (v1.12.3)
-- uWindowCapture (v0.6.0)
-- Obi Cloth (6.2)
-- DokoDemoPainter (needs to be moved outside the "Plugins" folder, no persistence supported)
-- Spout4Unity (https://github.com/sloopidoopi/Spout4Unity/tree/5cb448f30b807aa08d98269fef04d59547c201bd)
+- KlakSpout (https://github.com/keijiro/KlakSpout)
 - Any regular shaders (not URP, HDRP, LWRP)
 - Most things that seemed safe and useful from Unity itself
 
@@ -125,7 +123,7 @@ part of Unity and when asked, select original prefab. Otherwise
 the cloth may not work correctly. Don't add a MagicaPhysicsManager
 to your avatar, there's already one set up in VSeeFace.
 
-For Spout4Unity's SpoutSender, set the component on a camera with
+For KlakSpout's SpoutSender, set the component on a camera with
 a render texture set and set the same render texture on the
 sender. Make sure the texture's color format is set to
 R8G8B8A8_UNORM. The SpoutReceiver will automatically set the
@@ -193,8 +191,8 @@ renderer that is on the same object.
 * `SPCRJointDynamicsController`
 * `SPCRJointDynamicsPoint`
 * `SPCRJointDynamicsPointGrabber`
-* `Spout.SpoutReceiver`
-* `Spout.SpoutSender`
+* `KlakSpout.SpoutReceiver`
+* `KlakSpout.SpoutSender`
 * `TMPro.TMP_Dropdown`
 * `TMPro.TMP_InputField`
 * `TMPro.TextMeshPro`
