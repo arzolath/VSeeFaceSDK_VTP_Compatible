@@ -132,11 +132,6 @@ renderer that is on the same object.
 
 # Whitelisted components
 
-* `DDPPenController`
-* `DDPStampController`
-* `DokoDemoPainterPaintable` (No persistence or texture loading or saving is supported)
-* `DokoDemoPainterPen`
-* `DokoDemoPainterStamp`
 * `DynamicBone`
 * `DynamicBoneCollider`
 * `DynamicBoneColliderBase`
@@ -151,48 +146,13 @@ renderer that is on the same object.
 * `MagicaCloth.MagicaRenderDeformer`
 * `MagicaCloth.MagicaSphereCollider`
 * `MagicaCloth.MagicaVirtualDeformer`
-* `Obi.ObiAmbientForceZone`
-* `Obi.ObiCharacter`
-* `Obi.ObiCloth`
-* `Obi.ObiClothProxy`
-* `Obi.ObiClothRenderer`
-* `Obi.ObiCollider`
-* `Obi.ObiCollider2D`
-* `Obi.ObiContactEventDispatcher`
-* `Obi.ObiDistanceFieldRenderer`
-* `Obi.ObiFixedUpdater`
-* `Obi.ObiInstancedParticleRenderer`
-* `Obi.ObiLateFixedUpdater`
-* `Obi.ObiLateUpdater`
-* `Obi.ObiParticleAttachment`
-* `Obi.ObiParticleDragger`
-* `Obi.ObiParticleGridDebugger`
-* `Obi.ObiParticlePicker`
-* `Obi.ObiParticleRenderer`
-* `Obi.ObiProfiler`
-* `Obi.ObiRigidbody`
-* `Obi.ObiRigidbody2D`
-* `Obi.ObiSkinnedCloth`
-* `Obi.ObiSkinnedClothRenderer`
-* `Obi.ObiSolver`
-* `Obi.ObiSphericalForceZone`
-* `Obi.ObiStitcher`
-* `Obi.ObiTearableCloth`
-* `Obi.ObiTearableClothRenderer`
-* `ObiActorTeleport`
-* `ObiContactGrabber`
-* `ObiParticleCounter`
 * `RootMotion.FinalIK.RotationLimitAngle`
 * `RootMotion.FinalIK.RotationLimitHinge`
 * `RootMotion.FinalIK.RotationLimitPolygonal`
 * `RootMotion.FinalIK.RotationLimitSpline`
 * `RootMotion.FinalIK.TwistRelaxer`
-* `SPCRJointDynamicsCollider`
-* `SPCRJointDynamicsController`
-* `SPCRJointDynamicsPoint`
-* `SPCRJointDynamicsPointGrabber`
-* `KlakSpout.SpoutReceiver`
-* `KlakSpout.SpoutSender`
+* `Klak.Spout.SpoutReceiver`
+* `Klak.Spout.SpoutSender`
 * `TMPro.TMP_Dropdown`
 * `TMPro.TMP_InputField`
 * `TMPro.TextMeshPro`
@@ -301,13 +261,6 @@ renderer that is on the same object.
 * `VSeeFace.VSF_Static`
 * `VSeeFace.VSF_Toggle`
 * `VSeeFace.VSF_Trigger`
-* `uWindowCapture.UwcAltTabWindowTextureManager`
-* `uWindowCapture.UwcCursorTexture`
-* `uWindowCapture.UwcIconTexture`
-* `uWindowCapture.UwcManager`
-* `uWindowCapture.UwcWindowTexture`
-* `uWindowCapture.UwcWindowTextureChildrenManager`
-* `uWindowCapture.UwcWindowTextureManager`
 
 ## Integrating VSFAvatar support in other applications
 
